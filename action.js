@@ -24,3 +24,13 @@ if (piedra = tijera && piedra == respuesta) {
 
 */
 
+
+do {
+	var contrasena = prompt ("ingresa tu contraseña");
+	//document.write("esta no es tu contraseña nooooo!!!!");
+
+}while (contrasena !== "contraseña" );
+document.write(contrasena);
+
+
+
